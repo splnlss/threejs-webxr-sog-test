@@ -23,6 +23,10 @@ The bundle was made with SplatTransform 3.8.0 by extracting source LODs 2–4 to
 
 The original R2 asset remains available through `/sog-assets/*`. `vite.config.js` proxies it in development, and `public/_redirects` proxies it on Netlify. The R2 host does not send CORS headers.
 
+## Preview URL
+
+[Open the Quest 3S review build](https://quest3s-review-ba4bde2--threejs-webxr-sog-test.netlify.app/). This is a Netlify draft deploy; the live site remains separate.
+
 ## Deploy to Netlify
 
 This repository includes `netlify.toml` with the build command and publish directory. Connect the repository as a new Netlify project, or use Netlify CLI to create a site and run `netlify deploy --prod`.
